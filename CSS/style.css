@@ -30,6 +30,7 @@ img {
 }
 
 .main__app__windows {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -57,6 +58,21 @@ img {
   color: white;
   background-color: grey;
   opacity: 70%;
+}
+
+/* VIEW MANAGER */
+
+.view-manager {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  position: absolute;
+  right: 0;
+  color: white;
+  background-color: grey;
+  font-size: 12px;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 /* TOOLBAR */
