@@ -52,7 +52,7 @@ img {
 .window-label {
   position: absolute;
   left: 0;
-  top: 88%;
+  top: 180px;
   display: inline-block;
   color: white;
   background-color: grey;
@@ -98,4 +98,10 @@ img {
   background-color: rgb(74, 74, 74);
   font-size: 15px;
   padding: 25px 20px;
+}
+
+.icon-container:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
 }
