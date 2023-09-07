@@ -48,6 +48,7 @@ img {
 .toolbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -57,7 +58,7 @@ img {
 
 .icon-container {
   display: flex;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 /* LEFT CONTAINER */
@@ -74,4 +75,11 @@ img {
 .chevron img {
   width: 12px;
   transform: scaleY(-1);
+}
+
+.icon-container:last-child {
+  color: red;
+  background-color: rgb(74, 74, 74);
+  font-size: 15px;
+  padding: 25px 20px;
 }
