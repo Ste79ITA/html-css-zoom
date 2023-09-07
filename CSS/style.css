@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 
+img {
+  min-width: 100%;
+}
+
 /* DEBUG */
 
 .main-app {
   display: flex;
   background-color: black;
-  min-height: 100vh;
+  height: 100vh;
   flex-grow: 1;
 }
 
 .debug .app__window {
   border: 1px dashed white;
   width: 350px;
-  height: 200px;
+  height: 141px;
 }
 
 /* CLASSES */
@@ -25,12 +29,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 0 15px;
-  gap: 5px;
+  padding: 50 15px;
+  gap: 6px 4px;
   width: 1500px;
+  height: 500px;
   margin: 0 auto;
 }
 
 .app__window {
-  flex-basis: calc((100% - 5) / 7);
+  flex-basis: calc((100% - 30px) / 7);
+}
+
+.streaming img {
+  /* display: block; */
+  width: 100%;
+  object-fit: fill;
 }
