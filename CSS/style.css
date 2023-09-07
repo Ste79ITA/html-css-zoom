@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DEBUG */
+
+.main-app {
+  display: flex;
+  background-color: black;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+.debug .app__window {
+  border: 1px dashed white;
+  width: 350px;
+  height: 200px;
+}
+
+/* CLASSES */
+
+.main__app__windows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0 15px;
+  gap: 5px;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.app__window {
+  flex-basis: calc((100% - 5) / 7);
+}
