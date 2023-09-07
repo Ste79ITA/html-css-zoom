@@ -39,8 +39,24 @@ img {
   gap: 6px 4px;
 }
 
+.app__window {
+  position: relative;
+}
+
 .streaming img {
   width: 100%;
+}
+
+/* WINDOW LABEL */
+
+.window-label {
+  position: absolute;
+  left: 0;
+  top: 88%;
+  display: inline-block;
+  color: white;
+  background-color: grey;
+  opacity: 70%;
 }
 
 /* TOOLBAR */
